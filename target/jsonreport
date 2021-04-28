@@ -1,0 +1,374 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-26T03:47:24.356Z",
+        "line": 20,
+        "name": "Test the Sign Up Page",
+        "description": "",
+        "id": "sign-up;test-the-sign-up-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat StepDefination.StepDefination.load_the_home_page(StepDefination.java:28)\r\n\tat ✽.load the home page(file:///C:/Users/IBMADMIN/eclipse-workspace/SDET/src/test/java/feature/Register.feature:7)\r\n",
+              "duration": 22940400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "load the home page",
+            "match": {
+              "location": "StepDefination.StepDefination.load_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Go to singup page",
+            "match": {
+              "location": "StepDefination.StepDefination.go_to_singup_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Provide first name \"So0976\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"So0976\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11964400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Provide last name  \"y779\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"y779\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Provide email \"k@iuucr.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"k@iuucr.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Provide userid \"someone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"someone\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_userid(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Provide password \"No09a0ter123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No09a0ter123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Provide confirm password \"No09a0ter123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No09a0ter123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_confirm_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter the resister button",
+            "match": {
+              "location": "StepDefination.StepDefination.enter_the_resister_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify the welcom message \"Dear\" \u0026 \"So0976\" \u0026\"y779\" \u0026\"Your personal settings have been registered.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dear\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"So0976\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"y779\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Your personal settings have been registered.\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefination.StepDefination.verify_the_welcom_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@signupuser"
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "  I want to use this for Signup",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Register.feature",
+    "tags": [
+      {
+        "name": "@signup",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-26T03:47:24.905Z",
+        "line": 17,
+        "name": "Compose Email",
+        "description": "",
+        "id": "validate-the-user;compose-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null\r\n\tat StepDefination.StepDefination.click_on_profile(StepDefination.java:89)\r\n\tat ✽.Click on profile(file:///C:/Users/IBMADMIN/eclipse-workspace/SDET/src/test/java/feature/compose.feature:6)\r\n",
+              "duration": 7978400,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click on profile",
+            "match": {
+              "location": "StepDefination.StepDefination.click_on_profile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1993000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on inbox",
+            "match": {
+              "location": "StepDefination.StepDefination.click_on_inbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click on compose",
+            "match": {
+              "location": "StepDefination.StepDefination.click_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1986700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Provide recipient name \"naveen naveen(naveen)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen naveen(naveen)\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_recipient_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Provide subject \"Hi,Test email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi,Test email\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_subject(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5981600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Provide details \"Hello ,This is for testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello ,This is for testing\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.StepDefination.provide_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Enter the send key",
+            "match": {
+              "location": "StepDefination.StepDefination.enter_the_send_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Verify the welcom message \"This Message has been send to\" \u0026 \"naveen naveen(naveen)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This Message has been send to\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"naveen naveen(naveen)\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefination.StepDefination.verify_the_welcom_message(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@compose"
+          },
+          {
+            "name": "@composeemail"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the user",
+    "description": "",
+    "id": "validate-the-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/compose.feature",
+    "tags": [
+      {
+        "name": "@compose",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

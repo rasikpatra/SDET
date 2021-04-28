@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.131">
+    <testcase classname="Sign Up" name="Test the Sign Up Page" time="0.398">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given load the home page....................................................failed
+When Go to singup page......................................................skipped
+And Provide first name "So0976".............................................skipped
+And Provide last name  "y779"...............................................skipped
+And Provide email "k@iuucr.com".............................................skipped
+And Provide userid "someone"................................................skipped
+And Provide password "No09a0ter123".........................................skipped
+And Provide confirm password "No09a0ter123".................................skipped
+And Enter the resister button...............................................skipped
+Then Verify the welcom message "Dear" & "So0976" &"y779" &"Your personal settings have been registered.".skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefination.StepDefination.load_the_home_page(StepDefination.java:28)
+	at ✽.load the home page(file:///C:/Users/IBMADMIN/eclipse-workspace/SDET/src/test/java/feature/Register.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Validate the user" name="Compose Email" time="0.043">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given Click on profile......................................................failed
+When Click on inbox.........................................................skipped
+And click on compose........................................................skipped
+And Provide recipient name "naveen naveen(naveen)"..........................skipped
+And Provide subject "Hi,Test email".........................................skipped
+And Provide details "Hello ,This is for testing"............................skipped
+And Enter the send key......................................................skipped
+Then Verify the welcom message "This Message has been send to" & "naveen naveen(naveen)".skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at StepDefination.StepDefination.click_on_profile(StepDefination.java:89)
+	at ✽.Click on profile(file:///C:/Users/IBMADMIN/eclipse-workspace/SDET/src/test/java/feature/compose.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
